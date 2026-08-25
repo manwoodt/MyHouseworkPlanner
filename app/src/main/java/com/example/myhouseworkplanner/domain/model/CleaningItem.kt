@@ -1,6 +1,5 @@
 package com.example.myhouseworkplanner.domain.model
 
-import java.time.LocalDate
 import java.time.LocalDateTime
 
 data class CleaningItem(
@@ -8,7 +7,8 @@ data class CleaningItem(
     val roomId: Long,
     val name: String,
     val icon: String,
-    val cleanIntervalDays: Int,
+    val intervalValue: Int,
+    val intervalUnit: IntervalUnit,
     val lastCleanDate: LocalDateTime,
     val status: CleanStatus,
     val isEnabled: Boolean = true

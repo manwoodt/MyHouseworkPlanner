@@ -23,7 +23,8 @@ data class ItemEntity(
     val roomId: Long,
     val name: String,
     val icon: String,
-    val cleanInterval: Int,
+    val intervalValue: Int,
+    val intervalUnit: String,
     val lastCleanDate: Long = System.currentTimeMillis(),
     val isEnabled: Boolean = true
 )
