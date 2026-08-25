@@ -12,7 +12,7 @@ fun CleaningItem.toEntity(): ItemEntity {
         icon = icon,
         intervalValue = intervalValue,
         intervalUnit = intervalUnit.name,
-        lastCleanDate = lastCleanDate.toEpochMillis(), // В одну строчку
+        lastCleanDate = lastCleanDate.toEpochMillis(),
         isEnabled = isEnabled
     )
 }
