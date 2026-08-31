@@ -1,4 +1,4 @@
-package com.example.myhouseworkplanner.presentation.screens
+package com.example.myhouseworkplanner.presentation.screens.homeScreen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape

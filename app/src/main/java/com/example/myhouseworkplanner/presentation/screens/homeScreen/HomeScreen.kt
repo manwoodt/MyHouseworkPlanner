@@ -1,4 +1,4 @@
-package com.example.myhouseworkplanner.presentation.screens
+package com.example.myhouseworkplanner.presentation.screens.homeScreen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.myhouseworkplanner.presentation.HomeUiEvent
+import com.example.myhouseworkplanner.presentation.states.HomeUiEvent
 import com.example.myhouseworkplanner.presentation.viewmodels.HomeViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)

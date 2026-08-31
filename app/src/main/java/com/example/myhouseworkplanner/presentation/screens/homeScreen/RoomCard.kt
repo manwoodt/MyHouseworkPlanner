@@ -1,4 +1,4 @@
-package com.example.myhouseworkplanner.presentation.screens
+package com.example.myhouseworkplanner.presentation.screens.homeScreen
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*

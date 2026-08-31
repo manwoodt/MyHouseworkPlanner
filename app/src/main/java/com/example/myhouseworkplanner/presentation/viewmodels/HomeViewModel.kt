@@ -4,8 +4,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.myhouseworkplanner.domain.model.Room
 import com.example.myhouseworkplanner.domain.repositories.RoomRepository
-import com.example.myhouseworkplanner.presentation.HomeUiEvent
-import com.example.myhouseworkplanner.presentation.HomeUiState
+import com.example.myhouseworkplanner.presentation.states.HomeUiEvent
+import com.example.myhouseworkplanner.presentation.states.HomeUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow

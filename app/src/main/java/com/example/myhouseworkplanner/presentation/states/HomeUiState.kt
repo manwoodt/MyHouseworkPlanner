@@ -1,4 +1,4 @@
-package com.example.myhouseworkplanner.presentation
+package com.example.myhouseworkplanner.presentation.states
 
 import com.example.myhouseworkplanner.domain.model.Room
 
